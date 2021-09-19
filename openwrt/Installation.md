@@ -2,8 +2,9 @@
 
 1. Visit https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi
 
-2. Download proper image for your Pi. 
-    - 3b/3b+: http://downloads.openwrt.org/releases/21.02.0/targets/bcm27xx/bcm2710/openwrt-21.02.0-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz
+2. Download proper image for your Pi.
+
+   - 3b/3b+: http://downloads.openwrt.org/releases/21.02.0/targets/bcm27xx/bcm2710/openwrt-21.02.0-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz
 
 3. Download and install imager: https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/
 
