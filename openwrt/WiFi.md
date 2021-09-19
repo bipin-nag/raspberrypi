@@ -6,18 +6,16 @@ Guides :
 
 Steps:
 
-1. ssh root@192.168.1.1
+1. uci show wireless
 
-2. uci show wireless
+2. uci set wireless.radio0.country='IN'
 
-3. uci set wireless.radio0.country='IN'
+3. uci set wireless.radio0.disabled='0'
 
-4. uci set wireless.radio0.disabled='0'
+4. uci set wireless.default_radio0.encryption='psk2'
 
-5. uci set wireless.default_radio0.encryption='psk2'
+5. uci set wireless.default_radio0.key='password'
 
-6. uci set wireless.default_radio0.key='=v^K9s5duJTFkC5^'
+6. uci commit wireless
 
-7. uci commit wireless
-
-8. wifi reload
+7. wifi reload
