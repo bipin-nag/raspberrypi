@@ -43,3 +43,12 @@
    sudo pacman -Sy xfce4-screensaver
    reboot
    ```
+
+6. Enable SSH 
+   ```
+   sudo pacman -S openssh 
+   sudo systemctl status sshd.service
+   sudo systemctl enable sshd.service
+   sudo systemctl start sshd.service
+   ```
+
